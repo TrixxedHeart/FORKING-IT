@@ -1,0 +1,10 @@
+- type: trait
+  id: Euphemist
+  name: trait-euphemist-name
+  description: trait-euphemist-desc
+  category: SpeechTraits
+  cost: 1
+  components:
+  - type: ReplacementAccent
+    accent: euphemist
+
