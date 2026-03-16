@@ -49,6 +49,7 @@
   weight: 10
   startingGear: ChiefEngineerGear
   icon: "JobIconChiefEngineer"
+  joinNotifyCrew: true
   supervisors: job-supervisors-captain
   canBeAntag: false
   access:
