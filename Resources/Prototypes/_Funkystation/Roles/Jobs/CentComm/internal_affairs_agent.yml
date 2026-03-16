@@ -1,0 +1,61 @@
+- type: job
+  id: InternalAffairsAgent
+  name: job-name-internalaffairsagent
+  description: job-description-internalaffairsagent
+  playTimeTracker: JobInternalAffairsAgent
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 20h
+    - !type:RoleTimeRequirement
+      role: Lawyer
+      time: 5h
+  weight: 5
+  startingGear: InternalAffairsAgentGear
+  icon: "JobIconInternalAffairsAgent"
+  joinNotifyCrew: true
+  supervisors: job-supervisors-nanotrasenrepresentative
+  canBeAntag: false
+  accessGroups: # THIS IS IN ALPHABETICAL ORDER, KEEP IT IN ALPHABETICAL ORDER.
+  - Brig
+  - Cargo
+  - CentralCommand
+  - Cryogenics
+  - Engineering
+  - External
+  - Lawyer
+  - Maintenance
+  - Medical
+  - Research
+  - Service
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+  alternateTitles:
+  - InternalAffairsAgentCorporateComplianceOfficer
+  - InternalAffairsAgentSapientResourcesAgent
+
+- type: startingGear
+  id: InternalAffairsAgentGear
+  equipment:
+    belt: ClothingBeltStorageWaistbag
+    ears: ClothingHeadsetAltCentCom
+    eyes: ClothingEyesGlassesCommand
+    id: InternalAffairsAgentPDA
+    pocket1: BookSOP
+    pocket2: RubberStampIAA
+  inhand:
+  - BriefcaseBrownFilled
+  storage:
+    back:
+    - BluespaceLifelineImplanter
+    - BoxFolderCentComClipboard
+    - Flash
+
+- type: jobAlternateTitle
+  id: InternalAffairsAgentSapientResourcesAgent
+  name: job-name-alt-iaa-1
+
+- type: jobAlternateTitle
+  id: InternalAffairsAgentCorporateComplianceOfficer
+  name: job-name-alt-iaa-2

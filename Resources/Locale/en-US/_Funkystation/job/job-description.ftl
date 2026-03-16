@@ -1,0 +1,3 @@
+job-description-magistrate = Serve directly under CentComm. As the stations central legal authority, you authorize executions, extended detentions, warrants, etc.
+job-description-nanotrasenrepresentative = Represent NT, order your IAAs around, send reports to Central Command, advise Command and inform them of anything CentCom orders them to do.
+job-description-internalaffairsagent = Serve the Nanotrasen Representative. Write reports of any violations of Standard Operating Procedure or Space Law.

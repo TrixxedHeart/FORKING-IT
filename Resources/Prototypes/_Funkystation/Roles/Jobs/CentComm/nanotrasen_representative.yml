@@ -1,0 +1,65 @@
+- type: job
+  id: NanotrasenRepresentative
+  name: job-name-nanotrasenrepresentative
+  description: job-description-nanotrasenrepresentative
+  playTimeTracker: JobNanotrasenRepresentative
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 40h
+    - !type:RoleTimeRequirement
+      role: InternalAffairsAgent
+      time: 10h
+  weight: 10
+  startingGear: NanotrasenRepresentativeGear
+  icon: "JobIconNanotrasenRepresentative"
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups: # THIS IS IN ALPHABETICAL ORDER, KEEP IT IN ALPHABETICAL ORDER.
+  - Brig
+  - Cargo
+  - CentralCommand
+  - Command
+  - Cryogenics
+  - Engineering
+  - External
+  - Lawyer
+  - Maintenance
+  - Medical
+  - Research
+  - Service
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+  alternateTitles:
+  - NanotrasenRepresentativeCorporateLiaison
+  - NanotrasenRepresentativeNanotrasenAdvisor
+  - NanotrasenRepresentativeNanotrasenComplianceExecutive
+
+- type: startingGear
+  id: NanotrasenRepresentativeGear
+  equipment:
+    belt: ClothingBeltStorageWaistbag
+    ears: ClothingHeadsetAltCentCom
+    id: NanotrasenRepresentativePDA
+  storage:
+    back:
+    - BluespaceLifelineImplanter
+    - BoxFolderCentComClipboard
+    - Flash
+
+- type: jobAlternateTitle
+  id: NanotrasenRepresentativeCorporateLiaison
+  name: job-name-alt-ntr-1
+
+- type: jobAlternateTitle
+  id: NanotrasenRepresentativeNanotrasenComplianceExecutive
+  name: job-name-alt-ntr-2
+
+- type: jobAlternateTitle
+  id: NanotrasenRepresentativeNanotrasenAdvisor
+  name: job-name-alt-ntr-3
