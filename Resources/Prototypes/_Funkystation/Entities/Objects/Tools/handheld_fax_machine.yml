@@ -33,6 +33,8 @@
     powerLoad: 250
   - type: FaxMachine
     name: "Representative's Portable Fax"
+    receiveNukeCodes: true # yeah sure
+    printingtime: 2f # this is .3 faster, this is all you get.
     paperSlot:
       insertSound: /Audio/Machines/scanning.ogg
       ejectSound: /Audio/Machines/tray_eject.ogg
@@ -42,8 +44,6 @@
       blacklist:
         components:
           - CargoSlip
-    ReceiveNukeCodes: true # yeah sure
-    PrintingTime: 2f # this is .3 faster, this is all you get.
   - type: GenericVisualizer
     visuals:
       enum.PowerDeviceVisuals.Powered:
