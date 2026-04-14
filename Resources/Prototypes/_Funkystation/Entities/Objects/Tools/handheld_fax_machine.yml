@@ -63,3 +63,15 @@
     transmitFrequencyId: Fax
   - type: RequireProjectileTarget # idk what this is its just in fax_machine.yml so
   - type: MultiHandedItem
+  - type: MeleeWeapon # 1. its funny as hell 2. this is worse than grabbing an air tank from the nearest emergency locker
+    wideAnimationRotation: 180
+    attackRate: 0.8
+    soundHit:
+      collection: MetalBreak
+    damage:
+      types:
+        Blunt: 10
+  - type: DamageOnLand
+    damage:
+      types:
+        Blunt: 10
