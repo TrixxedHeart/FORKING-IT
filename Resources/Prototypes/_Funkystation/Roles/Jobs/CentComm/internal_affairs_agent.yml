@@ -6,6 +6,9 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 20h
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 10h
     - !type:RoleTimeRequirement
       role: Lawyer
       time: 5h
@@ -30,10 +33,6 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
-  - !type:AddComponentSpecial
-  alternateTitles:
-  - InternalAffairsAgentCorporateComplianceOfficer
-  - InternalAffairsAgentSapientResourcesAgent
 
 - type: startingGear
   id: InternalAffairsAgentGear
@@ -51,11 +50,3 @@
     - BluespaceLifelineImplanter
     - BoxFolderCentComClipboard
     - Flash
-
-- type: jobAlternateTitle
-  id: InternalAffairsAgentSapientResourcesAgent
-  name: job-name-alt-iaa-1
-
-- type: jobAlternateTitle
-  id: InternalAffairsAgentCorporateComplianceOfficer
-  name: job-name-alt-iaa-2
