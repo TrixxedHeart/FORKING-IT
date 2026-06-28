@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Made by Coolio Dudio, printing/inserting paper sprite by Arai, scanner by TrixxedHeart",
+  "copyright": "Made by Coolio Dudio additional edits by TrixxedHeart, printing/inserting paper sprite by Arai, scanner by TrixxedHeart",
   "size": {
     "x": 32,
     "y": 32
@@ -27,10 +27,7 @@
 		    [
     		  0.2,
     		  0.2,
-			  0.2,
-			  0.2,
-			  0.2,
-    		  0.2
+			  0.2
 		    ]
       ]
   },
