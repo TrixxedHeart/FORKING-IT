@@ -15,7 +15,7 @@ namespace Content.Server._Funkystation.Fax;
 /// Falls back to the hands of whoever is carrying the storage, then drops on the ground.
 /// Also handles gibs produced by faxecuting a mob while the fax is in storage.
 /// </summary>
-public sealed class HandheldFaxSystem : EntitySystem
+public sealed partial class HandheldFaxSystem : EntitySystem
 {
     [Dependency] private SharedContainerSystem _container = default!;
     [Dependency] private SharedStorageSystem _storage = default!;
