@@ -56,10 +56,6 @@ public sealed partial class GunExecutionSystem : EntitySystem
 
     private void OnGetVerbs(Entity<GunComponent> ent, ref GetVerbsEvent<UtilityVerb> args)
     {
-        // Do we have hands?
-        if (args.Hands == null || args.Using == null || !args.CanAccess || !args.CanInteract)
-            return;
-
         // Is this gun blacklisted from executions?
         if (HasComp<GunExecutionBlacklistComponent>(ent))
             return;
