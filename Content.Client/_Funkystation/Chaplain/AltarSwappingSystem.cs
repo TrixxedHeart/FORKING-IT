@@ -3,7 +3,6 @@ using Robust.Client.GameObjects;
 using Robust.Shared.Prototypes;
 using Content.Client._Starfall.Particles;
 using Content.Shared._Starfall.Particles;
-using Robust.Shared.Prototypes;
 
 namespace Content.Client._Funkystation.Chaplain;
 
