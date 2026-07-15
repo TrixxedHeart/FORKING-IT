@@ -1,6 +1,6 @@
 - type: entity
   id: AltarBase
-  parent: BaseStructure
+  parent: [ BaseStructure, FunkySelectableChaplainAltar ] # _Funkystation: Enables Chaplains to change the altar with their holy book
   name: altar
   description: Altar of the Gods.
   abstract: true
