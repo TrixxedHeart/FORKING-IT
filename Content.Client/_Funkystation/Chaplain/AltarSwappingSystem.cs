@@ -47,7 +47,7 @@ public sealed partial class AltarSwappingSystem : EntitySystem
     {
         var altar = GetEntity(args.Altar);
 
-        if (!EntityManager.EntityExists(altar))
+        if  (!Exists(altar))
             return;
 
         _particles.CreateParticle(HolyEffect, altar, attach: false);
