@@ -50,7 +50,7 @@
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"
-  joinNotifyCrew: true
+  joinNotifyCrew: true # Funky
   supervisors: job-supervisors-captain
   canBeAntag: false
   access:

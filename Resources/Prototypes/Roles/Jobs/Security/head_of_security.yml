@@ -63,7 +63,7 @@
   weight: 10
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"
-  joinNotifyCrew: true
+  joinNotifyCrew: true # Funky
   supervisors: job-supervisors-captain
   canBeAntag: false
   access:

@@ -52,7 +52,7 @@
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"
-  joinNotifyCrew: true
+  joinNotifyCrew: true # Funky
   supervisors: job-supervisors-captain
   canBeAntag: false
   access:
